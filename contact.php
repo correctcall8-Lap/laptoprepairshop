@@ -10,6 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $body    = "Naam: $name\nEmail: $email\nTelefoon: $phone\n\nBericht:\n$message";
     $headers = "From: $email";
 
+
     if (mail($to, $subject, $body, $headers)) {
         echo "Bedankt $name, uw bericht is verstuurd!";
     } else {
