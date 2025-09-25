@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LaptopRepairShop.nl - Chip-level laptop reparaties</title>
@@ -93,6 +94,9 @@
       <input type="email" name="email" placeholder="Uw e-mail" required>
       <input type="text" name="phone" placeholder="Uw telefoonnummer">
       <textarea name="message" rows="5" placeholder="Uw bericht" required></textarea>
+      
+      <!-- reCAPTCHA widget -->
+        <div class="g-recaptcha" data-sitekey="JOUW_SITE_KEY_HIER"></div>
       <button type="submit">Verstuur bericht</button>
     </form>
   </section>
