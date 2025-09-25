@@ -1,0 +1,131 @@
+/* Algemene styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background: #fff;
+}
+
+/* Header */
+header {
+  background: #004aad;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  background: #f4f7fb;
+  padding: 60px 20px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.5em;
+  color: #004aad;
+}
+.hero p {
+  font-size: 1.2em;
+}
+.cta-buttons a {
+  display: inline-block;
+  margin: 15px 10px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn-primary {
+  background: #004aad;
+  color: white;
+}
+.btn-secondary {
+  background: #28a745;
+  color: white;
+}
+
+/* Secties */
+.services, .usp, .about, .reviews, .business, .contact {
+  padding: 60px 40px;
+  text-align: center;
+}
+h2 {
+  color: #004aad;
+  margin-bottom: 20px;
+}
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+.service {
+  background: #f4f7fb;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* USP lijst */
+.usp ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+}
+.usp li {
+  margin: 10px 0;
+}
+
+/* Reviews */
+.review {
+  background: #f4f7fb;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 15px auto;
+  max-width: 600px;
+}
+
+/* Contactformulier */
+.contact form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.contact input, .contact textarea {
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.contact button {
+  background: #004aad;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.contact button:hover {
+  background: #00337a;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
