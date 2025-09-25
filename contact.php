@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // reCAPTCHA verificatie
-    $recaptcha_secret = "JOUW_SECRET_KEY_HIER"; // van Google
+    $recaptcha_secret = "6LfjAdUrAAAAAE4_B4vopojoo--guR4R1CHt37-K"; // van Google
     $recaptcha_response = $_POST['g-recaptcha-response'];
 
     $verify = file_get_contents(
